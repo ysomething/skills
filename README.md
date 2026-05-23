@@ -1,4 +1,4 @@
-# skills 总指挥官
+# skills
 
 这里是个人 Codex skills 的统一仓库。以后所有自定义 skill 都放在这个仓库里，并且遵循“一个 skill 一个文件夹”的规则。
 
