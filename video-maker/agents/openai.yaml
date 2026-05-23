@@ -1,0 +1,8 @@
+interface:
+  display_name: "Video Maker"
+  short_description: "制作中文科普视频的混合渲染流水线"
+  brand_color: "#F43F5E"
+  default_prompt: "使用 $video-maker 从脚本到最终 MP4 制作高动效中文科普视频。"
+
+policy:
+  allow_implicit_invocation: true

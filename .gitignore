@@ -1,0 +1,14 @@
+node_modules/
+.cache/
+.remotion/
+.remotion-binaries/
+dist/
+build/
+out/
+public/generated/
+public/audio/*.wav
+public/audio/*.mp3
+*.mp4
+*.mov
+*.webm
+*.log
