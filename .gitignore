@@ -1,14 +1,72 @@
-node_modules/
-.cache/
-.remotion/
-.remotion-binaries/
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
 dist/
 build/
+
+# Node / JS
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.next/
 out/
-public/generated/
-public/audio/*.wav
-public/audio/*.mp3
+dist/
+coverage/
+
+# Video / media outputs
+edit/
+final/
+renders/
+render/
+outputs/
+output/
+tmp/
+temp/
+cache/
 *.mp4
 *.mov
+*.avi
+*.mkv
 *.webm
-*.log
+*.wav
+*.mp3
+*.aac
+*.flac
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+
+# Blender / generated assets
+*.blend1
+*.blend2
+*.blend@
